@@ -8,6 +8,14 @@ import DecisionMakingExample
 import LoopExample
 import NumberExample
 import StringExample
+import ListExample
+import TupleExample
+import DictExample
+import DateTimeExample
+import FunctionExample
+import IOExample
+import AssertAndExceptionExample
+
 
 def test_Example1():
     x, y = 10.0, 3.0
@@ -208,6 +216,50 @@ def test_StringExample():
     StringExample.example3()
     StringExample.example4()
 
+
+def test_ListExample():
+    ListExample.example1()
+    ListExample.example2()
+    ListExample.example3()
+
+
+
+def test_TupleExample():
+    TupleExample.example1()
+
+
+def test_DictExample():
+    DictExample.example1()
+
+
+def test_DateTimeExample():
+    DateTimeExample.example1()
+    DateTimeExample.example2()
+    DateTimeExample.example3()
+    DateTimeExample.example4()
+    DateTimeExample.example5()
+    DateTimeExample.example6()
+    DateTimeExample.example7()
+    DateTimeExample.example8()
+    DateTimeExample.example9()
+
+def test_FunctionExample():
+    FunctionExample.example1()
+    FunctionExample.example2()
+    FunctionExample.example3()
+    FunctionExample.example4()
+
+
+def test_IOExample():
+    # IOExample.example1()
+    IOExample.example2()
+
+
+
+def test_AssertAndExceptionExample():
+    AssertAndExceptionExample.example1()
+    AssertAndExceptionExample.example2()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -219,7 +271,14 @@ def main():
     # test_DecisionMakingExample()
     # test_LoopExample()
     # test_NumberExample()
-    test_StringExample()
+    # test_StringExample()
+    # test_ListExample()
+    # test_TupleExample()
+    # test_DictExample()
+    # test_DateTimeExample()
+    # test_FunctionExample()
+    # test_IOExample()
+    test_AssertAndExceptionExample()
 
 if __name__ == '__main__':
     main()
