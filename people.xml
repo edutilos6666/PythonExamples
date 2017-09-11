@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<People>
+    <Person id="1">
+        <Name>foo</Name>
+        <Age>10</Age>
+        <Wage>100.0</Wage>
+        <Active>true</Active>
+    </Person>
+
+    <Person id="2">
+        <Name>bar</Name>
+        <Age>20</Age>
+        <Wage>200.0</Wage>
+        <Active>false</Active>
+    </Person>
+
+    <Person id="3">
+        <Name>bim</Name>
+        <Age>30</Age>
+        <Wage>300.0</Wage>
+        <Active>true</Active>
+    </Person>
+
+    <Person id="4">
+        <Name>edu</Name>
+        <Age>40</Age>
+        <Wage>400.0</Wage>
+        <Active>false</Active>
+    </Person>
+
+    <Person id="5">
+        <Name>tilos</Name>
+        <Age>50</Age>
+        <Wage>500.0</Wage>
+        <Active>true</Active>
+    </Person>
+
+</People>
