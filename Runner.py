@@ -16,6 +16,7 @@ import FunctionExample
 import IOExample
 import AssertAndExceptionExample
 import RegexpExample
+import MysqlClientExample
 
 
 def test_Example1():
@@ -267,6 +268,12 @@ def test_RegexpExample():
     RegexpExample.example2()
     RegexpExample.example3()
 
+
+def test_MysqlClientExample():
+    MysqlClientExample.example1()
+    MysqlClientExample.example2()
+
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -286,8 +293,8 @@ def main():
     # test_FunctionExample()
     # test_IOExample()
     # test_AssertAndExceptionExample()
-    test_RegexpExample()
-
+    # test_RegexpExample()
+    test_MysqlClientExample()
 
 if __name__ == '__main__':
     main()
