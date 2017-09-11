@@ -17,6 +17,8 @@ import IOExample
 import AssertAndExceptionExample
 import RegexpExample
 import MysqlClientExample
+import SMTPExample
+
 
 
 def test_Example1():
@@ -274,6 +276,12 @@ def test_MysqlClientExample():
     MysqlClientExample.example2()
 
 
+def test_SMTPExample():
+    # SMTPExample.example1()
+    # SMTPExample.example2()
+    # SMTPExample.example3()
+    SMTPExample.example4()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -294,7 +302,8 @@ def main():
     # test_IOExample()
     # test_AssertAndExceptionExample()
     # test_RegexpExample()
-    test_MysqlClientExample()
+    # test_MysqlClientExample()
+    test_SMTPExample()
 
 if __name__ == '__main__':
     main()
