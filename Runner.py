@@ -20,6 +20,7 @@ import MysqlClientExample
 import SMTPExample
 import ThreadExample
 import XMLExample
+import TkinterExample1
 
 
 def test_Example1():
@@ -296,6 +297,11 @@ def test_XMLExample():
     # XMLExample.example2()
     XMLExample.example3()
 
+
+
+def test_TkinterExample1():
+    TkinterExample1.example1()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -319,8 +325,8 @@ def main():
     # test_MysqlClientExample()
     # test_SMTPExample()
     # test_ThreadExample()
-    test_XMLExample()
-
+    # test_XMLExample()
+    test_TkinterExample1()
 
 if __name__ == '__main__':
     main()
