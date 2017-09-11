@@ -15,6 +15,7 @@ import DateTimeExample
 import FunctionExample
 import IOExample
 import AssertAndExceptionExample
+import RegexpExample
 
 
 def test_Example1():
@@ -260,6 +261,12 @@ def test_AssertAndExceptionExample():
     AssertAndExceptionExample.example1()
     AssertAndExceptionExample.example2()
 
+
+def test_RegexpExample():
+    RegexpExample.example1()
+    RegexpExample.example2()
+    RegexpExample.example3()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -278,7 +285,9 @@ def main():
     # test_DateTimeExample()
     # test_FunctionExample()
     # test_IOExample()
-    test_AssertAndExceptionExample()
+    # test_AssertAndExceptionExample()
+    test_RegexpExample()
+
 
 if __name__ == '__main__':
     main()
