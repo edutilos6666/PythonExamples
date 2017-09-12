@@ -21,7 +21,7 @@ import SMTPExample
 import ThreadExample
 import XMLExample
 import TkinterExample1
-
+import NumpyExample
 
 def test_Example1():
     x, y = 10.0, 3.0
@@ -302,6 +302,15 @@ def test_XMLExample():
 def test_TkinterExample1():
     TkinterExample1.example1()
 
+
+def test_NumpyExample():
+    # NumpyExample.example1()
+    # NumpyExample.example2()
+    # NumpyExample.example3()
+    # NumpyExample.example4()
+    # NumpyExample.example5()
+    NumpyExample.example6()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -326,7 +335,8 @@ def main():
     # test_SMTPExample()
     # test_ThreadExample()
     # test_XMLExample()
-    test_TkinterExample1()
+    # test_TkinterExample1()
+    test_NumpyExample()
 
 if __name__ == '__main__':
     main()
