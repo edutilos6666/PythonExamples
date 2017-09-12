@@ -3,6 +3,8 @@ import time  # for np.random.seed()
 from matplotlib import pyplot as plt
 from scipy import misc
 
+from PyQt5 import QtCore
+
 
 
 def example27():
