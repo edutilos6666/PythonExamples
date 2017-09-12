@@ -22,6 +22,8 @@ import ThreadExample
 import XMLExample
 import TkinterExample1
 import NumpyExample
+import NumpyExample2
+
 
 def test_Example1():
     x, y = 10.0, 3.0
@@ -311,6 +313,13 @@ def test_NumpyExample():
     # NumpyExample.example5()
     NumpyExample.example6()
 
+
+
+def test_NumpyExample2():
+    # NumpyExample2.example1()
+    # NumpyExample2.example2()
+    NumpyExample2.example3()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -336,7 +345,9 @@ def main():
     # test_ThreadExample()
     # test_XMLExample()
     # test_TkinterExample1()
-    test_NumpyExample()
+    # test_NumpyExample()
+    test_NumpyExample2()
+
 
 if __name__ == '__main__':
     main()
