@@ -25,6 +25,11 @@ import NumpyExample
 import NumpyExample2
 import SQLAlchemyExample
 import PillowExample
+import PonyORMExample
+import PeeweeORMExample
+import SympyExample
+
+
 
 def test_Example1():
     x, y = 10.0, 3.0
@@ -339,6 +344,20 @@ def test_PillowExample():
     # PillowExample.example6()
     PillowExample.example7()
 
+
+
+def test_PonyORMExample():
+    PonyORMExample.example2()
+
+
+def test_PeeweeORMExample():
+    PeeweeORMExample.example2()
+
+
+def test_SympyExample():
+    # SympyExample.example1()
+    SympyExample.example2()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -366,8 +385,11 @@ def main():
     # test_TkinterExample1()
     # test_NumpyExample()
     # test_NumpyExample2()
-    test_SQLAlchemyExample()
+    # test_SQLAlchemyExample()
     # test_PillowExample()
+    # test_PonyORMExample()
+    # test_PeeweeORMExample()
+    test_SympyExample()
 
 
 if __name__ == '__main__':
