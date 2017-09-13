@@ -1,7 +1,5 @@
-import sys
-sys.path.append("./ScipyLectureNotes")
-
-from ScipyLectureNotes import PythonBasicsExample, NumpyExample, MatplotExample
+from ScipyLectureNotes import PythonBasicsExample, NumpyExample, MatplotExample ,\
+    ScipyExample
 
 
 def test_PythonBasicExample():
@@ -64,10 +62,28 @@ def test_MatplotExample():
     # MatplotExample.example19()
     MatplotExample.example20()
 
+
+
+def test_ScipyExample():
+    # ScipyExample.example1()
+    # ScipyExample.example2(
+    # ScipyExample.example3()
+    # ScipyExample.example4()
+    # ScipyExample.example5()
+    # ScipyExample.example6()
+    # ScipyExample.example7()
+    ScipyExample.example8()
+
+
+
+
+
 def main():
     # test_PythonBasicExample()
     # test_NumpyExample()
-    test_MatplotExample()
+    # test_MatplotExample()
+    test_ScipyExample()
+
 
 if __name__ == "__main__":
     main()

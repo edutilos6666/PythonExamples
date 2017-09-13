@@ -23,7 +23,8 @@ import XMLExample
 import TkinterExample1
 import NumpyExample
 import NumpyExample2
-
+import SQLAlchemyExample
+import PillowExample
 
 def test_Example1():
     x, y = 10.0, 3.0
@@ -320,6 +321,24 @@ def test_NumpyExample2():
     # NumpyExample2.example2()
     NumpyExample2.example3()
 
+
+
+def test_SQLAlchemyExample():
+    # SQLAlchemyExample.example1()
+    # SQLAlchemyExample.example2()
+    SQLAlchemyExample.example3()
+
+
+
+def test_PillowExample():
+    # PillowExample.example1()
+    # PillowExample.example2()
+    # PillowExample.example3()
+    # PillowExample.example4()
+    # PillowExample.example5()
+    # PillowExample.example6()
+    PillowExample.example7()
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -346,7 +365,9 @@ def main():
     # test_XMLExample()
     # test_TkinterExample1()
     # test_NumpyExample()
-    test_NumpyExample2()
+    # test_NumpyExample2()
+    test_SQLAlchemyExample()
+    # test_PillowExample()
 
 
 if __name__ == '__main__':
