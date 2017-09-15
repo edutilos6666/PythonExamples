@@ -28,7 +28,7 @@ import PillowExample
 import PonyORMExample
 import PeeweeORMExample
 import SympyExample
-
+import PygtkExample
 
 
 def test_Example1():
@@ -358,6 +358,16 @@ def test_SympyExample():
     # SympyExample.example1()
     SympyExample.example2()
 
+
+def test_PygtkExample():
+    # PygtkExample.example2()
+    # PygtkExample.example3()
+    # PygtkExample.example4()
+    # PygtkExample.example5()
+    # PygtkExample.example6()
+    PygtkExample.example7()
+
+
 def main():
     # test_Example1()
     # test_InheritanceExample()
@@ -389,7 +399,8 @@ def main():
     # test_PillowExample()
     # test_PonyORMExample()
     # test_PeeweeORMExample()
-    test_SympyExample()
+    # test_SympyExample()
+    test_PygtkExample()
 
 
 if __name__ == '__main__':
