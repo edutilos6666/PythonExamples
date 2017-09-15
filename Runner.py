@@ -365,7 +365,11 @@ def test_PygtkExample():
     # PygtkExample.example4()
     # PygtkExample.example5()
     # PygtkExample.example6()
-    PygtkExample.example7()
+    # PygtkExample.example7()
+    # PygtkExample.example8()
+    # PygtkExample.example9()
+    # PygtkExample.example10()
+    PygtkExample.example11()
 
 
 def main():
