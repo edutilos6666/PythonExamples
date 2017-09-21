@@ -1,7 +1,7 @@
 import MySQLdb
 '''
 installing mysqlclient:
- sudo pip install mysqlclient
+ sudo pip3 install mysqlclient
 '''
 
 
